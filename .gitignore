@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.vscode/
+*.log
+player_profiles.json
+astrbot_plugin_getZhanJi_bak/

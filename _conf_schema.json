@@ -1,0 +1,47 @@
+{
+  "base_url": {
+    "description": "三国杀战绩网页地址",
+    "type": "string",
+    "default": "http://124.223.83.131:5000/"
+  },
+  "cache_ttl": {
+    "description": "战绩缓存时间（秒）。0 表示每次都重新抓取。",
+    "type": "int",
+    "default": 600,
+    "slider": {
+      "min": 0,
+      "max": 3600,
+      "step": 30
+    }
+  },
+  "timeout": {
+    "description": "单页请求超时时间（秒）",
+    "type": "int",
+    "default": 20,
+    "slider": {
+      "min": 5,
+      "max": 120,
+      "step": 5
+    }
+  },
+  "default_days": {
+    "description": "默认统计最近多少天；0 表示全部历史",
+    "type": "int",
+    "default": 0,
+    "slider": {
+      "min": 0,
+      "max": 365,
+      "step": 1
+    }
+  },
+  "max_pages": {
+    "description": "最多抓取页数，每页 100 局",
+    "type": "int",
+    "default": 50,
+    "slider": {
+      "min": 1,
+      "max": 200,
+      "step": 1
+    }
+  }
+}

@@ -1,0 +1,5 @@
+name: astrbot_plugin_getZhanJi
+display_name: 三国杀战绩查询
+desc: 抓取群英战报网页，查询玩家/武将战绩、身份分布，并支持自然语言问答。
+version: v1.0.0
+author: Administrator
